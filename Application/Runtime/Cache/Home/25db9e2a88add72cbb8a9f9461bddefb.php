@@ -1,0 +1,46 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html Public "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<link rel="stylesheet" type="text/css" href="/yintong/Public/css/article.css" />
+<script type="text/javascript" src="/yintong/Public/js/jquery.js"></script>
+<link rel="stylesheet" href="/yintong/Public/kindeditor/themes/default/default.css" />
+<script src="/yintong/Public/kindeditor/kindeditor-min.js"></script>
+<script src="/yintong/Public/kindeditor/lang/zh_CN.js"></script>
+<script>
+	KindEditor.ready(function(K) {
+		K.create('textarea[name="content"]', {
+			autoHeightMode : true,
+			afterCreate : function() {
+				this.loadPlugin('autoheight');
+			}
+		});
+	});
+
+</script>
+<title>控制台</title>
+</head>
+<body>
+<div class="container">
+   <form action="/yintong/index.php/Home/Dailycomment/updatereceive" method="post">
+       <input type="text" class="input1" name="id" style="display:none;" value="<?php echo $comment["id"];?>"/>
+	   <div class="all">
+	   	<div class="main">添加每日定评</div>
+	   	<div class="title">标题</div>
+	   	<input type="text" class="input1" name="title" value="<?php echo $comment["title"];?>"/>
+	   	<div class="title">内容</div>
+
+	   </div>
+	   <div class="textmain">
+	   		<textarea name="content" class="content" style="width:100%;height:340px;"><?php echo $comment["text"];?></textarea>
+	   	</div>
+	   	<div>
+	   		<input type="submit" style="float:right;margin-right:50px;width:50px;" value="发表" />
+	   	</div>
+   </form>
+   	
+</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+.piclist{
+	width: 90%;
+	height: auto;
+}
+
+.piclist li{
+	width: 164px;
+	height: 190px;
+	float: left;
+	margin: 10px;
+	position: relative;
+	border: 1px #dad5d5 solid;
+}
+.piclist li img{
+	width: 160px;
+	height: 160px;
+	margin: 2px;
+}
+.piclist li .picname{
+	width: 160px;
+	height: 25px;
+	line-height: 25px;
+	position: absolute;
+	left: 2px;
+	top: 123px;
+	text-align: center;
+	font-size: 12px;
+	background: url('../images/picBgX60.png') repeat;
+}
+.piclist li .picname a:link, .piclist li .picname a:visited{
+	color: #fff;
+	letter-spacing: 1px;
+}
+.piclist li .piccontrol{
+	width: 164px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	left: 0;
+	top: 160px;
+	text-align: center;
+}
+
+.piclist li .piccontrol a{
+	width: 50px;
+	height: 24px;
+	float: left;
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 4px 0px 0 20px;
+}
+
+.breakPage{
+	width: 98%;
+	height: 50px;
+	clear: both;
+}
+
+.pagination{
+	text-align: left;
+	border-bottom: none;
+}
+.pagination .page{
+	min-width: 12px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	border:1px solid #e1e2e3;
+	float: left;
+	overflow: hidden;
+	margin: 0 5px;
+	padding: 0 5px;
+	color: #666;
+	background-color: #fff;
+}
+.pagination .active{
+	border:1px solid #0793c6;
+	background-color: #161614;
+	color: #ffffff;
+}

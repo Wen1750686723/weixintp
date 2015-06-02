@@ -1,0 +1,193 @@
+.top{
+	width: 990px;
+	margin:0 auto;
+	overflow: hidden;
+	height: 75px;
+}
+.top .content_left{
+	color: #666;
+	font-size: 20px;
+	line-height: 75px;
+	font-weight: bold;
+	float: left;
+}
+.top .content_right{
+	line-height: 75px;
+	font-size: 12px;
+	float: right;border-left: solid 1px #D5E2FF;
+	margin-right: 10px;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+.top .content_right_one{
+	line-height: 75px;
+	font-size: 12px;
+	float: right;
+	padding-left: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.border{
+	border-bottom:solid 1px #E3E3E3;
+}
+.content{
+	width: 786px;
+	margin:115px auto 20px;
+	height: 445px;
+	overflow: hidden; 
+	border:solid 1px #E3E2E2;
+}
+.content .content_first{
+	width: 100%;
+	height: 70px;
+}
+.content .content_first .general_left{
+    width: 50%;
+    background-color: #FDAE44;
+    height: 70px;
+    float: left;
+}
+.content .content_first .general_left_img{
+	margin-left: 25%;
+	height: 20px;
+	display: block;
+	width: 50px;
+}
+.content .content_first .general_left_img1{
+	margin-left: 75%;
+	height: 20px;
+	display: block;
+	width: 50px;
+}
+.content .content_first .general_left .img{
+	float: left;
+	margin-top: 15px;
+	margin-left: 50px;
+
+}
+.content .content_first .general_left .fig{
+	font-size: 18px;
+	line-height: 70px;
+}
+.content .content_first .analyst_right{
+    width: 50%;
+    background-color: #F5F5F5;
+    float: left;
+}
+.content .content_first .analyst_right .img{
+	float: left;
+	margin-left: 50px;
+	margin-top: 15px;
+
+}
+.content .content_first .analyst_right .fig{
+	font-size: 18px;
+	line-height: 70px;
+}
+.content .content_second{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	height: 50px;
+}
+.content .content_second .fig_left{
+	width: 190px;
+	height: 30px;
+	float: left;
+}
+.content .content_second .fig_left .info{
+	float: right;
+	line-height: 30px;
+	font-size: 14px;
+	color: #535353;
+}
+.content .content_second .input_right{
+	width: 80px;
+	height: 30px;
+	outline: none;
+    margin-left: 10px;
+    padding-left: 5px;
+	border:solid 1px #CCCCCC;
+	float: left;
+}
+.content .content_second .input_one{
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #F2F2F2;
+	outline: none;
+    margin-left: 10px;
+    padding-left: 5px;
+	border:solid 1px #CCCCCC;
+	float: left;
+}
+.content .content_second .input_tel{
+	width: 280px;
+	height: 30px;
+	outline: none;
+    margin-left: 10px;
+    padding-left: 5px;
+	border:solid 1px #CCCCCC;
+	float: left;
+}
+.content .content_second .input_register{
+	width: 120px;
+	height: 30px;
+	outline: none;
+    margin-left: 10px;
+    padding-left: 5px;
+	border:solid 1px #CCCCCC;
+	float: left;
+}
+.content .content_second .input_box{
+	width: 120px;
+	height: 30px;
+	border: solid 1px #CCCCCC;
+	float: left;
+	margin-left: 10px;
+}
+.content .content_third{
+	width: 250px;
+	margin-left: 200px;
+	height: 30px;
+}
+.content .content_third .checkbox{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 5px;
+	float: left;
+}
+.content .content_third .commit{
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	vertical-align: middle;
+}
+.content .content_third a{
+    color: #08c;
+    font-size: 12px;
+    float: left;
+	height: 30px;
+	line-height: 30px;
+}
+.content .content_fourth{
+	width: 80px;
+	height: 30px;
+	outline: none;
+	margin-left: 200px;
+	background-color: #F09511;
+	margin-top: 20px;
+	border:solid 1px #E67C00;
+    
+}
+.content .content_fourth:hover{
+	width: 80px;
+	height: 30px;
+	outline: none;
+	margin-top: 20px;
+	margin-left: 200px;
+	background-color: #F4A423;
+	border:solid 1px #E67C00;
+}

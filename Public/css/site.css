@@ -1,0 +1,21 @@
+.container{
+	width: 748px;
+	padding-bottom: 20px;
+	height: 500px;
+	background-color: #fff;
+}
+.container h1{
+	font-weight: bold;
+	background:  transparent url(__PUBLIC__/images/icon_arrow.gif) no-repeat scroll 12px 17px;
+	padding: 20px 10px 10px 55px;
+	margin-bottom: 5px;
+	line-height: 2em;
+}
+.container .content{
+	padding-left: 55px;
+}
+.container .content p{
+	width: 300px;
+	padding-bottom: 20px;
+    color: #454545;
+}

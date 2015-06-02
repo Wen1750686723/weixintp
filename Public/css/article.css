@@ -1,0 +1,37 @@
+.container{
+	width: 100%;
+	min-height: 500px;
+	background-color: #fff;
+	margin:0 auto;
+}
+.container .all{
+	width: 99%;
+	overflow: hidden;
+	background-color: #F0F0EE;
+}
+.container .main{
+  font-size: 13px;
+  background: #E5EEF7;
+  border-top: 1px solid #AAAAAA;
+  border-bottom: 1px dashed #AAAAAA;
+  font-weight: bold;
+  color: #333333;
+  width: auto;
+  padding: 2px 12px;
+  margin: 12px 0px 5px 0px;
+  clear: left;
+}
+.container .title{
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 1%;
+}
+.container .input1{
+	width: 98%;
+	margin-left: 1%;
+	height: 20px;
+
+}
+.container .textmain{
+	width: 98.8%;
+}
